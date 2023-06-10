@@ -116,9 +116,6 @@ footer > div > img {
 }
 
 @media (min-width: 1024px) {
-  header > h1 {
-    background-color: green;
-  }
   main {
     display: flex;
     flex-direction: row;
