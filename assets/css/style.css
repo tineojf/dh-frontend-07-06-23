@@ -114,3 +114,21 @@ footer > div > img {
   position: relative;
   bottom: 6px;
 }
+
+@media (min-width: 1024px) {
+  header > h1 {
+    background-color: green;
+  }
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+  main > article {
+    width: 25%;
+    margin: 30px 5vw;
+  }
+}
