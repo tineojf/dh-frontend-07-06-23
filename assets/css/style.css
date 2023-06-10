@@ -127,8 +127,13 @@ footer > div > img {
     align-items: center;
     align-content: stretch;
   }
+
   main > article {
     width: 25%;
     margin: 30px 5vw;
+  }
+
+  footer {
+    font-size: 1rem;
   }
 }
