@@ -31,6 +31,7 @@ main {
   justify-content: space-between;
   align-items: center;
   align-content: stretch;
+  margin-bottom: 20px;
 }
 main > article {
   width: 70vw;
@@ -67,18 +68,17 @@ main > article > div > button {
 }
 
 footer {
-  display: flex;
-
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  align-content: stretch;
-
-  height: 5vh;
   width: 100%;
+  padding: 20px;
   font-size: 0.7rem;
   color: #fff;
   text-align: center;
   background-color: var(--color-primary);
+}
+
+footer > div > img {
+  float: right;
+  width: 80px;
+  position: relative;
+  bottom: 6px;
 }
